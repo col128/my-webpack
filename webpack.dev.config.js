@@ -1,4 +1,4 @@
-
+console.log("webpack.dev.config.js is running...");
 var webpack = require('webpack');
 var path = require('path');
 
@@ -20,7 +20,7 @@ module.exports= {
 			},
 			{
 				test:/\.js$/,
-				loader:"babel"
+				loader:"babel-loader"
 			},
 			{
 				test:/\.css$/,
