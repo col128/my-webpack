@@ -21,9 +21,21 @@ cnpm install style-loader css-loader --save-dev
 
 cnpm i -D file-loader url-loader
 
+cnpm i -D vue-template-compiler vue-loader 
+
+
+cnpm install html-webpack-plugin --save-dev
+
+https://github.com/jantimon/html-webpack-plugin
 
 
 ref:
+
+
+一小时包教会webpack
+
+http://www.cnblogs.com/vajoy/p/4650467.html
+
 
 webpack configs:
 http://webpack.github.io/docs/configuration.html
