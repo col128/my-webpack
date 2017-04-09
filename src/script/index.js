@@ -9,6 +9,9 @@ console.log(tom)
 u.ls.save("tom",tom)
 var jom = u.ls.get("tom")
 console.log("index.js is running....")
+
+
+$("myApp").html("this is myApp")
 //
 // let vue = new Vue({
 // 	el:"#myApp",
